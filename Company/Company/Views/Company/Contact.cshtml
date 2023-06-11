@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+<div>
+    <a href="/">Home</a>
+    <a href="/Company/Services">Services</a>
+    <a href="/Company/TeamsMember">Teams & Members</a>
+    <a href="/Company/Contact">Contact</a>
+</div>
+
+<h2>Contact with Us</h2>
+<style>
+    input[type=text], textarea, email {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 32px;
+    }
+</style>
+<form>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br >
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone"><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
